@@ -65,7 +65,7 @@ def game():
     play_again = input("Want to play again? (y/n): ")
     
     if play_again in "nN":
-        print("Bye Bye!")
+        print("Bye Bye!, see you next time.")
         exit
     elif play_again in "yY":
         Taking_choice()
